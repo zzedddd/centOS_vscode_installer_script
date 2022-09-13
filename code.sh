@@ -20,6 +20,7 @@ yum install -y code figlet
 
 rm -rf centOS_vscode_installer_script/
 
-figlet -c "Installation  Completed! $username"
+figlet -c "Installation  Completed!   $username"
+
 
 
