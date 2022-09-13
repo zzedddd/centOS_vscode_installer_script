@@ -5,7 +5,7 @@ if [[ ! ${EUID} -eq 0 ]]; then
 	exit
 fi
 
-rpm --import https://packages.icrosoft.com/keys/microsoft.asc
+rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
 echo "[code]
 name=Visual Studio Code
