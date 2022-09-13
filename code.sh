@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ ! ${EUID} -eq 0 ]]; then
+	echo "Please run this script as superuser"
+	exit
+fi
+
 rpm --import https://packages.icrosoft.com/keys/microsoft.asc
 
 echo "[code]
