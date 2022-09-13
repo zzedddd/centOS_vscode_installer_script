@@ -14,4 +14,10 @@ enabled=1
 gpgcheck=1
 gpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo
 
-yum install -y code
+yum install -y code figlet 
+
+rm -rf centOS_vscode_installer_script/
+
+figlet -c "Installation  Completed!"
+
+
