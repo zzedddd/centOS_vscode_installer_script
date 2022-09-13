@@ -1,4 +1,4 @@
-# Hello, noob!
+# VS Code installer script
 
 ## This script is tested on CentOS {7,8,9} and RockyLinux {7,8,9}
 
