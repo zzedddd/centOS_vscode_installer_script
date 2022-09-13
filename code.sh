@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ! ${EUID} -eq 0 ]]; then
-	echo "Please run this script as superuser"
+	echo "Please run this script as root"
 	exit
 fi
 
